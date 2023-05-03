@@ -5,13 +5,14 @@
 }
 
 body {
-  background-color: rgba(223, 77, 203, 0.89);
+  background-color: rgba(36, 36, 36);
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
 }
 .container {
+  box-shadow: 40px;
   width: 450px;
   display: flex;
   flex-direction: column;
@@ -31,7 +32,7 @@ p {
 input {
   margin: 20px 0;
   padding: 15px;
-  border-radius: 5px;
+  border-radius: 15px;
   border: 1px solid rgb(212, 206, 206);
   font-size: 18px;
   color: rgb(71, 70, 70);
@@ -58,6 +59,6 @@ button:hover {
   font-weight: 600;
   color: gray;
 }
-span{
-  color:rgba(223, 77, 203, 0.89) ;
+span {
+  color: rgba(223, 77, 203, 0.89);
 }
